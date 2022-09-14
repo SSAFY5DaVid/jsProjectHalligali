@@ -4,7 +4,7 @@
 
 [[할리갈리 동영상 링크]](https://youtu.be/iGaDXIv0tAQ)
 
-![6tc0sl](README.assets/6tc0sl.gif)
+<img src="README.assets/6tc0sl.gif" alt="6tc0sl" style="zoom:200%;" />
 
 
 
