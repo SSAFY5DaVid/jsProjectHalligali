@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 모달창 */
+#modal {
+
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#modal h1 {
+    position: absolute;
+    left: 40%;
+    bottom: 0.5%;
+    color: white;  
+    font-size: 40px;
+}
+
+#modal button {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    display:inline-block;
+    width:30px;
+    cursor: pointer;
+    background:black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%
+    
+}
+
+#modal .modalContent {
+    position:absolute;
+    top: 100px;
+    left: 600px;
+    width:600px;
+    height: 500px;
+    margin:100px auto;
+    padding:20px 10px;
+    background-image: url(./img/modal.png);
+    background-size: cover;
+    border-radius: 30px;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#modal .modalLayer {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:-1;
+    visibility: hidden;
+    z-index: 900;
+}   
+
+/* ================================== */
+
+.divback{
+    position: relative;
+    width: 2000px;
+    height: 1000px;
+    z-index: 0;
+    background: linear-gradient(
+        to right,
+        rgba(20, 20, 20, 0.5) 10%,
+        rgba(20, 20, 20, 0.25) 25%,
+        rgba(20, 20, 20, 0.5) 50%,
+        rgba(20, 20, 20, 0.75) 75%,
+        rgba(20, 20, 20, 0.5) 100%
+        ), url(./img/back2.jpg);
+}
+
+
+table {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    width: 370px;
+}
+
+table th {
+    width: 100px;
+}
+
+div#content {
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 20px 0;
+    width: 1500px;
+    height: 900px;
+    z-index: 1;
+    background-color: #d9c7bd;
+    background-image: url(./img/field9.png);
+    background-size: 300px 250px;
+    border-radius: 100px;
+}
+
+
+div.cardPosition {
+    width: 200px;
+    height: 260px;
+    background-image: url(./img/back8.png);
+    background-size: 200px 260px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+
+#header {
+    position: absolute;
+    left: 600px;
+    top: 20x;
+
+}
+
+#scoreBoard {
+    position: absolute;
+    left: 1050px;
+    top: 20x;
+    width: 400px;
+    height: 260px;
+}
+
+
+#footer {
+    position: absolute;
+    left: 600px;
+    top: 670px;
+}
+
+#left {
+    position: absolute;
+    left: 150px;
+    top: 335px;
+}
+
+#right {
+    position: absolute;
+    left: 1050px;
+    top: 335px;
+}
+
+div.card {
+    /* border: 2px solid black;*/
+    border-radius: 20px; 
+    width: 200px;
+    height: 260px;
+    z-index: 200;
+    position: absolute;
+    top: 335px;
+    left: 600px;
+    background-image: url(./img/cardback1.png);
+    background-size: 200px 260px;
+    cursor: pointer;
+}
+
+#hand {
+    background-image: url(./img/hand.png);
+    background-size: 300px 360px;
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    top: 210px;
+    visibility: hidden;
+}
+
+article div.cardPosition {
+    float: right;
+}
+
+div#Hbtn {
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    display: inline-block;
+}
+
+#bell {
+    pointer-events: none;
+    cursor: pointer;
+}
+#table {
+    background: black;
+    color: yellow;
+}
